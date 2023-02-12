@@ -14,7 +14,7 @@ python3 -m poetry install --no-dev
 ## 用法
 
 ```bash
-usage: python3 -m poetry python -m fadian [-h] --type {fabing,fadian} --name NAME [--count COUNT]
+usage: python3 -m poetry run python -m fadian [-h] --type {fabing,fadian} --name NAME [--count COUNT]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -26,7 +26,7 @@ optional arguments:
 ## 示例
 
 ```bash
-$ poetry run python -m fadian --type fabing --name Ricky
+$ python3 -m poetry run python -m fadian --type fabing --name Ricky
  我好想做 Ricky 小姐的狗啊。
  可是 Ricky 小姐说她喜欢的是猫，我哭了。
  我知道既不是狗也不是猫的我为什么要哭的。因为我其实是一只老鼠。
@@ -48,7 +48,7 @@ $ poetry run python -m fadian --type fabing --name Ricky
 ```
 
 ```bash
-$ poetry run python -m fadian --type fadian --name Ricky --count 15
+$ python3 -m poetry run python -m fadian --type fadian --name Ricky --count 15
 嘿嘿🤤
 …… Ricky ……我的🤤
 我的……🤤
