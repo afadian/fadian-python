@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fadian-python"
+version = "0.1.0"
+description = ""
+authors = ["Ricky8955555 <ricky8955555@gmail.com>"]
+license = "AGPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+isort = "^5.11.5"
+pyright = "^1.1.293"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+include = ["cyan", "examples"]
+exclude = ["**/node_modules", "**/__pycache__"]
+pythonVersion = "3.7"
+typeCheckingMode = "strict"
+reportImportCycles = "none"
