@@ -1,4 +1,4 @@
-# fadian-go
+# fadian-python
 
 [afadian/fadian](https://github.com/afadian/fadian) 的 Python 版本，按 ~~1:0~~ 的比例~~还原了~~原版。
 
