@@ -8,14 +8,13 @@
 
 ```bash
 pip install poetry
-poetry install --no-dev
-poetry shell
+python3 -m poetry install --no-dev
 ```
 
 ## 用法
 
 ```bash
-usage: python(3) -m fadian [-h] --type {fabing,fadian} --name NAME [--count COUNT]
+usage: python3 -m poetry python -m fadian [-h] --type {fabing,fadian} --name NAME [--count COUNT]
 
 optional arguments:
   -h, --help            show this help message and exit
